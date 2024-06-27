@@ -1,0 +1,42 @@
+module.exports = {
+    root: true,
+    plugins: [
+        '@stylistic',
+    ],
+    env: {
+        node: true,
+    },
+    parserOptions: {
+        ecmaVersion: 8,
+        parser: '@typescript-eslint/parser',
+        sourceType: 'module',
+    },
+    rules: {
+        'func-style': ['warn'],
+        'no-console': ['warn', { allow: ['warn', 'error'] }],
+        '@stylistic/arrow-parens': ['warn'],
+        '@stylistic/arrow-spacing': ['warn'],
+        '@stylistic/indent': ['warn', 4],
+        '@stylistic/max-len': ['warn', 120],
+        '@stylistic/semi': ['warn', 'always'],
+        '@stylistic/brace-style': ['warn'],
+        '@stylistic/quotes': ['warn', 'single'],
+        '@stylistic/func-call-spacing': ['warn'],
+        '@stylistic/block-spacing': ['warn'],
+        '@stylistic/comma-spacing': ['warn'],
+        '@stylistic/keyword-spacing': ['warn'],
+        '@stylistic/type-annotation-spacing': ['warn'],
+        '@stylistic/no-multiple-empty-lines': ['warn'],
+        '@stylistic/object-curly-spacing': ['warn', 'always'],
+        '@stylistic/comma-dangle': ['warn', {
+            'arrays': 'always-multiline',
+            'objects': 'always-multiline',
+            'imports': 'only-multiline',
+            'exports': 'only-multiline',
+            'functions': 'only-multiline',
+        }],
+        '@typescript-eslint/prefer-function-type': ['warn'],
+        '@typescript-eslint/no-unused-vars': ['warn'],
+        '@typescript-eslint/no-import-type-side-effects': ['warn'],
+    },
+};

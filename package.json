@@ -1,0 +1,13 @@
+{
+    "name": "framework",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "main": "./src/index.ts",
+    "devDependencies": {
+        "@stylistic/eslint-plugin-ts": "latest",
+        "@typescript-eslint/parser": "latest",
+        "eslint": "latest",
+        "typescript": "latest"
+    }
+}
