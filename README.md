@@ -1,4 +1,4 @@
-Dependency free micro framework for dependency injection. Designed to be easy to use and very minimal.
+Dependency free micro framework for dependency injection
 
 ## Usage
 

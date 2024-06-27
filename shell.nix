@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }:
 
 pkgs.mkShell {
-    name = "framework";
+    name = "typed";
 
     buildInputs = [
         pkgs.bun

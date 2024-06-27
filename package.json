@@ -1,9 +1,24 @@
 {
-    "name": "framework",
+    "name": "typed",
     "version": "1.0.0",
-    "private": true,
     "type": "module",
+    "types": "./src/index.d.ts",
     "main": "./src/index.ts",
+    "author": "konkonam <konkonam@gmail.com>",
+    "contributors": [ "freb97 <frederik@bussmann.io>" ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:konkonam/typed.git"
+    },
+    "bugs": {
+        "url": "https://github.com/konkonam/typed/issues"
+    },
+
+    "exports": {
+        ".": "./src/index.ts"
+    },
+
     "devDependencies": {
         "@stylistic/eslint-plugin-ts": "latest",
         "@typescript-eslint/parser": "latest",
